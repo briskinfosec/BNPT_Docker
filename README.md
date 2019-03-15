@@ -4,7 +4,7 @@
 </p>
 
 
-## Table Of Contents
+## Table of contents
 - [Why this Docker?](#why-this-docker)
 - [What this Docker contains?](#what-this-docker-contains)
 - [Usage](#usage)
@@ -12,8 +12,8 @@
 - [Building Docker Image](#building-docker-image)
 - [Tools](#tools)
 
-## Why This Docker?
-<p align="justify"> This Docker contains a collection of open source tools which can be used for Testing Networks. This Docker has been created to simplify the tools installation and their dependencies by gathering the open source tools into a single Docker container. With this Docker, tools which are platform dependent can be used in an independent platform. </p>
+## Why this Docker?
+<p align="justify"> This Docker contains a collection of open source tools which can be used for testing networks. This Docker has been created to simplify the tools installation and their dependencies by gathering the open source tools into a single Docker container. With this Docker, tools which are platform dependent can be used in an independent platform. </p>
 
 ## What This Docker contains?
 - [Nmap](#nmap) 
@@ -30,12 +30,12 @@
 docker run -it --name <name for container>  briskinfosec/network_docker
 ``` 
 
-## Quick Installation
+## Quick installation
 ```Dockerfile
 docker pull briskinfosec/network_docker:latest
 docker run -it --name <name for container>  briskinfosec/network_docker
 ```
-## Building Docker Image
+## Building Docker image
 ```Dockerfile
 docker build -t <name for docker image> /PATH/TO/THE/Dockerfile.
 docker run -it --name <name for container>  briskinfosec/network_docker
