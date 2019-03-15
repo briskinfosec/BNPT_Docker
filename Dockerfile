@@ -6,7 +6,7 @@ RUN mkdir /root/tools
 RUN apt-get install -y nmap dnsutils hping3 iputils-ping masscan whois dnsrecon dnswalk
 RUN git clone https://github.com/jakeelong/ssltestt.git /ssltest && \
     cd /ssltest && pip install requests
-RUN git clone https://github.com/sowish/LNScan.git /lnscan && \
+RUN git clone https://github.com/jakeelong/LNScan.git /lnscan && \
     cd /lnscan && rm .gitignore LNScan.pyc README.md
 RUN git clone https://github.com/jakeelong/rebel-framework.git /rebel && \
     cd /rebel && bash setup.sh && \
