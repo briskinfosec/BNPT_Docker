@@ -5,12 +5,16 @@
 
 
 ## Table of contents
+- [Introduction](#introduction)
 - [Why this Docker?](#why-this-docker)
 - [What this Docker contains?](#what-this-docker-contains)
 - [Usage](#usage)
 - [Quick Installation](#quick-installation)
 - [Building Docker Image](#building-docker-image)
 - [Tools](#tools)
+
+## Introduction
+<p align="justify"> Docker tool is designed to create, deploy, and run applications easily by using containers. Containers allow a developer to consolidate an application with all of the parts it needs, such as libraries and other dependencies, and ships it all out as one package. It has quality benefits like directly heading to the VA part, skipping other stuffs without affecting other processes as other requirements exist inside the container. This docker is in docker cloud, thus can be pulled from anywhere. </p>
 
 ## Why this Docker?
 <p align="justify"> This Docker contains a collection of open source tools which can be used for testing networks. This Docker has been created to simplify the tools installation and their dependencies by gathering the open source tools into a single Docker container. With this Docker, tools which are platform dependent can be used in an independent platform. </p>
