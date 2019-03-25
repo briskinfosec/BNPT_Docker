@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#######SSLTEST########
+######### SSLTEST #########
 
 echo -e -n "ENTER THE TARGET:"$target 
 read target

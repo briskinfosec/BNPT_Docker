@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-############REBEL################
+######### REBEL #########
 
 bash /rebel/rebel.sh
