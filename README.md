@@ -103,7 +103,7 @@ docker run -it --name <name for container>  briskinfosec/bnpt_docker
 <p aling="justify"> A high performance offensive security tool for reconnaissance and vulnerability scanning. It will do everything from fetching DNS records, retrieving WHOIS information, obtaining TLS data, detecting WAF presence and up to threaded dir busting and subdomain enumeration. Every scan outputs to a corresponding file.</p>
 <ul type="square">
   <li> Performs overall vulnerability scanning automatically. </li>
-  <li> Display the results based on severity. </li>
+  <li> Display the categorized results. </li>
 </ul>
 
  <p align="center">
