@@ -70,7 +70,7 @@ docker run -it --name <name for container>  briskinfosec/bnpt_docker
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BNPT_Docker/master/images/lnscan2.png" /><br> 
 
 ### Hping3
-<p aling="justify"> Hping is a command-line oriented TCP/IP packet assembler/analyzer. It supports TCP, UDP, ICMP and RAW-IP protocols. It is manly used for: </p>
+<p aling="justify"> Hping is a command-line oriented TCP/IP packet assembler/analyzer. It supports TCP, UDP, ICMP and RAW-IP protocols. It is mainly used for: </p>
 <ul type="square">
   <li> Firewall testing.</li>
   <li> Advanced port scanning. </li>
