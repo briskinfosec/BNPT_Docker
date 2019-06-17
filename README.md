@@ -14,10 +14,10 @@
 - [Tools](#tools)
 
 ## Introduction
-<p align="justify"> Docker is a platform that meant to create, deploy, and run applications easily using containers. Containers allow a developer to consolidate an application with all of the parts it needs, such as libraries as well as other dependencies and ships it all out as one package. Briskinfosec, decided to make use of this technology by integrating the default and additional open source networking tools for performing the security assessment on networks. It has quality benefits like directly heading to the VA (Vulnerability Assessment) part, skipping other stuffs without affecting other processes, as other requirements exist inside the container. This docker is in Briskinfosec repository in docker cloud, which can be pulled from anywhere. </p>
+<p align="justify"> Docker is a platform that is meant to create, deploy and run applications easily using containers. Containers allow a developer to consolidate an application with all of the parts it needs, such as libraries as well as other dependencies and ships it all out as one package. Briskinfosec, decided to make use of this platform and integrate with open source security assessment tools for use in network security assessments. We have named it "BNPT_Docker". It offers quality benefits like direct VA (Vulnerability Assessment) part, skipping few steps without affecting other processes, as other requirements exist inside the container. This docker is in Briskinfosec repository in docker cloud, which can be pulled from anywhere.. </p>
 
 ## Why BNPT_Docker?
-<p align="justify"> This Docker contains a collection of open source tools which can be used for testing networks. This Docker has been created to simplify the tools installation and their dependencies by gathering the open source tools into a single Docker container. With this Docker, tools which are platform dependent can be used in an independent platform. </p>
+<p align="justify"> This Docker comprises collection of open source tools which can be used for testing networks. This Docker has been created to simplify the tools installation and their dependencies by gathering the open source tools into a single Docker container thus making it platform independent. </p>
 
 ## What This Docker contains?
 - [Nmap](#nmap) 
@@ -48,7 +48,7 @@ docker run -it --name <name for container>  briskinfosec/bnpt_docker
 ## Tools
 
 ### Nmap
-<p aling="justify"> Nmap, short known for Network Mapper, is a free and open-source tool for vulnerability scanning and network discovery. Network administrators use Nmap to identify what devices are running on their systems, discovering hosts that are available and the services they offer, finding open ports and detecting security risks. </p>
+<p aling="justify"> Nmap, short known for Network Mapper, is a free and open-source tool for vulnerability scanning and network discovery. Network administrators use Nmap to identify active devices on their networks, discovering hosts that are available and the services they offer, finding open ports and detecting security risks. </p>
 
 <p align="center">
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BNPT_Docker/master/images/nmap1.png" /><br> 
@@ -60,7 +60,7 @@ docker run -it --name <name for container>  briskinfosec/bnpt_docker
 <img width="860x50" src="https://raw.githubusercontent.com/briskinfosec/BNPT_Docker/master/images/masscan.png" /><br> 
 
 ### LNScan
-<p aling="justify"> LNScan (Local Network Scanner), is an internal network scanner which is only used for enterprise security self-tests. Its features are: </p>
+<p aling="justify"> LNScan (Local Network Scanner), is an internal network scanner which is only used for enterprise security self-tests. Its features include: </p>
 <ul type="square">
   <li> Fast and efficient, multi-process + multi-threaded combination. </li>
 </ul>
@@ -128,7 +128,7 @@ docker run -it --name <name for container>  briskinfosec/bnpt_docker
 
 
 ## How to contribute
-<p align="justify"> All contributions are welcome, from code to documentation, to design suggestions, to bug reports. Please use GitHub to its fullest. Submit your requests, contribute tutorials or other wiki content. Whatever lucrative you offer, we will use it! </p>
+<p align="justify"> All contributions are welcome, from code to documentation, to design suggestions, to bug reports. Please use GitHub to its fullest. Submit your requests, contribute tutorials or other wiki content. </p>
 
 ## Support us !
 <p align="justify">If you want to support us in any possible ways, please do it. Here is our official Email address:contact@briskinfosec.com or visit our website www.briskinfosec.com for more details. </p>
@@ -142,4 +142,4 @@ docker run -it --name <name for container>  briskinfosec/bnpt_docker
   <li> Yukinoshita47</li>
 
 ## Disclaimer
-<p align="justify"> <i>Note: This Docker is intended to be used for legal security purposes only, and you should only use it to protect networks/hosts that you own or have permission to test. Any other illegal use is not the responsibility of the developer(s). Be sure that you understand and comply with the Docker licenses and laws in your area. </i> </p>
+<p align="justify"> <i>Note: This Docker is intended to be used for legal security purposes only, and you should only use it to protect networks/hosts that you own or have permission to test. Any other illegal use is not the responsibility of the developer(s). Be sure that you understand and comply with the Docker licenses and laws in your country. </i> </p>
