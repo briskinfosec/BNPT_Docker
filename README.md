@@ -7,7 +7,7 @@
 ## Table of contents
 - [Introduction](#introduction)
 - [Why BNPT_Docker?](#why-bnpt_docker)
-- [What this Docker contains?](#what-this-docker-contains)
+- [What does this Docker contain?](#what-this-docker-contains)
 - [Usage](#usage)
 - [Quick Installation](#quick-installation)
 - [Building Docker Image](#building-docker-image)
